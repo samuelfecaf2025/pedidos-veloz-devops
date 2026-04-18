@@ -25,7 +25,7 @@ jobs:
         with:
           context: ./services/${{ matrix.service }}
           push: true
-          tags: samuelfecaf2025/pedidos-veloz-${{ matrix.service }}:latest, samuelfecaf2025/pedidos-veloz-${{ matrix.service }}:${{ github.sha }}
+          tags: samuka0202/pedidos-veloz-${{ matrix.service }}:latest...
 
   deploy-kubernetes:
     needs: build-and-push
