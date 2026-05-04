@@ -13,8 +13,10 @@ Plataforma completa de pedidos com 4 microsserviços + PostgreSQL + RabbitMQ.
 ✅ Observabilidade e escalabilidade  
 ✅ IaC com Terraform  
 
+## Video pitch
+https://youtu.be/DALOH2aHdUc
+
 ## 🚀 Como rodar localmente
 ```bash
 docker compose up -d
-## Video pitch
-https://youtu.be/DALOH2aHdUc
+
